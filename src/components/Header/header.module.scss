@@ -1,0 +1,14 @@
+.container {
+  background-image: linear-gradient(
+    to right,
+    rgb(67, 165, 243),
+    rgb(232, 237, 240)
+  );
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  .heading {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}

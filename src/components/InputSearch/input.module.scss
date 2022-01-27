@@ -1,0 +1,18 @@
+.InputContainer {
+  display: flex;
+  align-items: flex-end;
+  input {
+    width: 40vw;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #abb0b8;
+    margin-right: 0.3rem;
+    @media screen and (max-width: 768px) {
+      width: 70vw;
+    }
+  }
+  .searchIcon {
+    cursor: pointer;
+  }
+}
